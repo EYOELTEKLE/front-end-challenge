@@ -1,0 +1,40 @@
+.hero-section
+{
+
+font-family: $header-font;
+margin-top:55px;
+
+
+	.wrapper
+	{
+		width: 600px;
+		margin-top: 100px;
+		margin-left: 12%;
+
+		.hero-title,.hero-subtitle
+		{
+			font-size: 2.1rem;
+			color:$footer-color;
+
+		}
+		.hero-last-title
+		{
+			font-size: 1.2rem;
+			margin-top: 13px;
+			color:$footer-color;
+			margin-bottom: 23px; 
+		}
+		.hero-button
+		{
+			border: 1px solid $header-color;
+			width:200px;
+			border-radius: 400px;
+			padding: 1rem .4rem;
+			background: $header-color;
+			color:$background-color;
+			font-weight: 600;
+			font-size: 1rem;
+			cursor: pointer;
+		}
+	}
+}

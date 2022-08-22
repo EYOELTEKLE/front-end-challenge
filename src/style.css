@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.top-header {
+  background: #45c14e;
+  height: 40px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: "GT America", Helvetica, arial, sans-serif; }
+  .top-header p {
+    color: #fcfcfc;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: .9rem; }
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "GT America", Helvetica, arial, sans-serif;
+  align-items: center;
+  margin-top: 10px; }
+
+.left-header {
+  display: flex;
+  margin: 17px 23px;
+  justify-content: center;
+  align-items: center; }
+  .left-header .list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200; }
+    .left-header .list li {
+      margin: 9px;
+      margin-top: 14px;
+      margin-right: 19px;
+      color: #99ADB7;
+      font-weight: 150;
+      cursor: pointer; }
+      .left-header .list li:hover {
+        color: black; }
+
+.right-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 53px;
+  font-weight: 200; }
+  .right-header .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px; }
+    .right-header .list li {
+      font-weight: 150;
+      list-style: none;
+      color: #99ADB7;
+      cursor: pointer; }
+      .right-header .list li:hover {
+        color: black; }
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 49px;
+  justify-content: flex;
+  align-items: center; }
+
+.hero-section {
+  font-family: "GT America", Helvetica, arial, sans-serif;
+  margin-top: 55px; }
+  .hero-section .wrapper {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 12%; }
+    .hero-section .wrapper .hero-title, .hero-section .wrapper .hero-subtitle {
+      font-size: 2.1rem;
+      color: #002c43; }
+    .hero-section .wrapper .hero-last-title {
+      font-size: 1.2rem;
+      margin-top: 13px;
+      color: #002c43;
+      margin-bottom: 23px; }
+    .hero-section .wrapper .hero-button {
+      border: 1px solid #45c14e;
+      width: 200px;
+      border-radius: 400px;
+      padding: 1rem .4rem;
+      background: #45c14e;
+      color: #fcfcfc;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer; }

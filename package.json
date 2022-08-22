@@ -1,0 +1,20 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass sass -o src",
+	"watch":"nodemon -e sass -x node-sass sass -o src",
+	"watch-css":"node-sass -w sass -o src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

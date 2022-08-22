@@ -1,0 +1,18 @@
+.top-header
+{
+	background: $header-color;
+	height:40px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: $header-font;
+	p
+	{
+		color:$background-color;
+		line-height: 28px;
+		font-weight:600;
+		font-size:.9rem;	
+	}
+
+}
