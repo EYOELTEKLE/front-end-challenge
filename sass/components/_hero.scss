@@ -3,8 +3,6 @@
 
 font-family: $header-font;
 margin-top:55px;
-
-
 	.wrapper
 	{
 		width: 600px;
@@ -79,6 +77,50 @@ margin-top:55px;
 			margin-top: -150px;
 		}
 	}
+	.feature-herosection
+	{
+		background:$special-color;
+		padding: 2.5rem; 
+		font-family: 
+		img
+		{
+			max-width: 252px;
+			margin-bottom: 15px;
+		}
+		h1
+		{
+			text-align: center;
+			font-size: 1.9rem;
+			color: $footer-color;
+			margin-bottom: 180px;
+			transform: translateY(50px);
+		}
+	}
+	.features-container
+		{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.feature
+			{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin-right: 65px;
+				p
+				{
+					color:$footer-color;
+					max-width: 253px;
+					margin-top: 30px;
+					margin-left:27px;
+					font-size: 1.3rem;
+					font-weight: 500;
+
+				}
+			}
+		}
 
 }
+
 

@@ -1,0 +1,63 @@
+.stories-section
+{
+	 max-width: 100%;
+	 overflow-x: auto;
+	 overflow-y: hidden;
+	 -webkit-overflow-scrolling:touch;
+	h1
+	{
+		color:$footer-color;
+		text-align: center;
+		font-size:1.3rem;
+		margin-top: 20px;
+	}
+	.slideshow-container
+	{
+		display: flex;
+		color:$footer-color;
+		width:20000px;
+		.right
+		{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-left:7px;
+			padding-top:1rem;
+			img
+			{
+				max-height:27px;
+				margin-left: -2px;
+				margin-bottom:15px;
+			}
+
+		}
+
+	}
+	.card
+	{
+		border: .3px solid black;
+		display: flex;
+		margin:10px 24px;
+		position:relative;
+		padding:.4rem auto;
+		box-shadow: 5px 10px $background-color;
+		color:$footer-color;
+		background-color:$background-color; 
+		img
+			{
+				max-height:100px;
+				margin-left:7px;
+				margin-top:9px;
+				margin-right:12px;
+			}
+		p{
+					max-width: 420px;
+					font-size:1.2rem;
+			}
+	}
+	&::-webkit-scrollbar {
+  display: none;
+}
+
+
+}

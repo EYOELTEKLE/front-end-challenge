@@ -124,3 +124,76 @@
     .hero-section .second-herosection .grasshopper {
       margin-left: -200px;
       margin-top: -150px; }
+  .hero-section .feature-herosection {
+    background: #dff8eb;
+    padding: 2.5rem;
+    font-family: img;
+      font-family-max-width: 252px;
+      font-family-margin-bottom: 15px; }
+    .hero-section .feature-herosection h1 {
+      text-align: center;
+      font-size: 1.9rem;
+      color: #002c43;
+      margin-bottom: 180px;
+      transform: translateY(50px); }
+  .hero-section .features-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .hero-section .features-container .feature {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 65px; }
+      .hero-section .features-container .feature p {
+        color: #002c43;
+        max-width: 253px;
+        margin-top: 30px;
+        margin-left: 27px;
+        font-size: 1.3rem;
+        font-weight: 500; }
+
+.stories-section {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; }
+  .stories-section h1 {
+    color: #002c43;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px; }
+  .stories-section .slideshow-container {
+    display: flex;
+    color: #002c43;
+    width: 20000px; }
+    .stories-section .slideshow-container .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 7px;
+      padding-top: 1rem; }
+      .stories-section .slideshow-container .right img {
+        max-height: 27px;
+        margin-left: -2px;
+        margin-bottom: 15px; }
+  .stories-section .card {
+    border: .3px solid black;
+    display: flex;
+    margin: 10px 24px;
+    position: relative;
+    padding: .4rem auto;
+    box-shadow: 5px 10px #fcfcfc;
+    color: #002c43;
+    background-color: #fcfcfc; }
+    .stories-section .card img {
+      max-height: 100px;
+      margin-left: 7px;
+      margin-top: 9px;
+      margin-right: 12px; }
+    .stories-section .card p {
+      max-width: 420px;
+      font-size: 1.2rem; }
+  .stories-section::-webkit-scrollbar {
+    display: none; }
