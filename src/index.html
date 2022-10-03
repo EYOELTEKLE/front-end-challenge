@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<script defer src="index.js"></script>
+	
 </head>
 <body>
 	<div class="top-header">
@@ -79,12 +81,16 @@
  		 </div>
  	</div>
 </div>
-<div class="stories-section">
 	<h1 class="stories-title">Grasshopper stories</h1>
+<div class="stories-section">
+
 	<div class="slideshow-container">
 		
 			<div class="card">
-					<img src="	https://grasshopper.app/assets/static/images/home-stories/user1.jpg" alt="" class="avatar">
+				<div class="wrapper">
+						<img src="	https://grasshopper.app/assets/static/images/home-stories/user1.jpg" alt="" class="avatar">
+				</div>
+				
 					<div class="right">
 						<img src="	https://grasshopper.app/assets/static/images/common/quotes.svg" alt="">
 						<p>Grasshopper showed me that no matter what or who or how I look, anyone can learn how to code. It’s exciting. It opens up a whole new world for me.</p>
@@ -93,7 +99,9 @@
 				
 			</div>
 			<div class="card">
-				<img src="https://grasshopper.app/assets/static/images/home-stories/user2.jpg" alt="" class="avatar">
+				<div class="wrapper">
+						<img src="https://grasshopper.app/assets/static/images/home-stories/user2.jpg" alt="" class="avatar">
+				</div>
 					<div class="right">
 						<img src="	https://grasshopper.app/assets/static/images/common/quotes.svg" alt="">
 						<p>I like Grasshopper because it allows anyone with or without experience in coding to jump right in and have fun along the way.</p>
@@ -102,7 +110,10 @@
 
 			</div>
 			<div class="card">
-					<img src="https://grasshopper.app/assets/static/images/home-stories/user3.jpg" alt="" class="avatar">
+				<div class="wrapper">
+						<img src="https://grasshopper.app/assets/static/images/home-stories/user3.jpg" alt="" class="avatar">
+				</div>
+				
 					<div class="right">
 							<img src="	https://grasshopper.app/assets/static/images/common/quotes.svg" alt="">
 							<p>Grasshopper helped me achieve basic understanding of coding. Now, I know that I can see myself in this field.</p>
@@ -110,7 +121,10 @@
 					</div>
 			</div>
 				<div class="card">
-					<img src="https://grasshopper.app/assets/static/images/home-stories/user4.jpg" alt="" class="avatar">
+					<div class="wrapper">
+						<img src="https://grasshopper.app/assets/static/images/home-stories/user4.jpg" alt="" class="avatar">
+					</div>
+					
 					<div class="right">
 						<img src="	https://grasshopper.app/assets/static/images/common/quotes.svg" alt="">
 						<p>This is the most user-friendly interactive app [where] challenges are structured like fill-in-the-blanks puzzles [and] animations and confetti ... demonstrate how code can bring things to life.</p>
@@ -119,6 +133,23 @@
 			</div>
 		</div>
 	</div>
-</div>
+		<div class="dot-class">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		<div class="banter">
+			<div class="item1">
+				<img src="https://grasshopper.app/assets/static/images/home-learn-to-code/grasshopper__practice__meditate.svg" alt="frog">
+			</div>
+			<div class="item2">
+				<h1>Learn to Code anyWhere.</h1>
+				<h2>Grasshopper is available on Android and all web browsers. Your progress syncs seamlessly between devices.</h2>
+			</div>
+			<div class="item3">
+				<img src="	https://grasshopper.app/assets/static/images/home-learn-to-code/devices.svg" alt="Laptop">
+			</div>
+		</div>
 </body>
 </html>
