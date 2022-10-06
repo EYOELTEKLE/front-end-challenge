@@ -14,6 +14,14 @@ function preventKeyBoardScroll(e) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+document.querySelector('.slideshow-container').addEventListener('wheel', preventScroll, {passive: false});
+
+function preventScroll(e){
+    e.preventDefault();
+    e.stopPropagation();
+
+    return false;
+}
 
 
 function showSlides(n)
