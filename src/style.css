@@ -60,7 +60,8 @@
       font-weight: 150;
       list-style: none;
       color: #99ADB7;
-      cursor: pointer; }
+      cursor: pointer;
+      margin-top: -10px; }
       .right-header .list li:hover {
         color: black; }
 
