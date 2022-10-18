@@ -1,0 +1,29 @@
+.moving-section
+{
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	margin:7px 16px;
+	p
+	{
+		border: 1px solid black;
+		border-radius: 400px;
+		display: inline;
+	}
+	.col1
+	{
+		width: 30000px;
+		margin-bottom:16px;
+	}
+	.col2
+	{
+		width: 30000px;
+		margin-bottom:16px;
+	}
+	.col3
+	{
+		width: 30000px;
+		margin-bottom:16px;
+	}
+}

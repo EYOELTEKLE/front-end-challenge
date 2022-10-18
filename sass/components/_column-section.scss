@@ -1,0 +1,51 @@
+.column-section
+{
+	display:flex;
+	margin-top: 15px;
+	.col1
+	{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h1
+		{
+			color: $nav-color;
+			display: none;
+			max-width: 540px;
+			margin-top: 10px;
+		}
+		.first
+		{
+			display: inline-block;
+		}
+		.special
+		{
+			display: inline-block;
+		}
+		img
+		{
+			display: none;
+		}
+	}
+	.col2
+	{
+		width: 50%;
+		img
+		{
+			width: 100%;
+			display: none;
+		}
+		.first
+		{
+			display: inline-block;
+		}
+	}
+}
+.sec
+	{
+		color: $nav-color;
+		text-align: center;
+		margin-top: 19px;
+	}
