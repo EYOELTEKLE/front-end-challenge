@@ -318,7 +318,7 @@
     border: 1px solid black;
     border-radius: 400px;
     display: inline;
-    padding: .9rem 1.7rem;
+    padding: 1.3rem 2.1rem;
     background: #dff8eb;
     color: #00324b;
     font-weight: 650;
@@ -329,29 +329,38 @@
     margin-top: 55px; }
   .moving-section .col2 {
     width: 30000px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 16px; }
   .moving-section .col3 {
     width: 30000px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 26px; }
 
-.advert-section {
+.section-advert {
   background-color: #4ee8e2;
   display: flex;
+  justify-content: center;
   position: relative; }
-  .advert-section .col-1 {
+  .section-advert .col-1 {
     display: flex;
     flex-direction: column;
     z-index: 1; }
-    .advert-section .col-1 p {
+    .section-advert .col-1 p {
       color: #00324b;
       font-size: 1rem;
       font-weight: 600; }
-  .advert-section .col-2 {
+  .section-advert .col-2 {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     z-index: 1; }
-  .advert-section .moving {
+  .section-advert .moving {
+    z-index: 0;
     position: absolute;
-    z-index: 0; }
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    top: 30%; }
+  .section-advert .move-3 {
+    margin-bottom: -70px; }
