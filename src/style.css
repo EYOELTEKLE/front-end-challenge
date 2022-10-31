@@ -234,7 +234,8 @@
 
 .column-section {
   display: flex;
-  margin-top: 15px; }
+  margin-top: 15px;
+  padding: 6rem 0; }
   .column-section .col1 {
     width: 50%;
     display: flex;
@@ -263,7 +264,7 @@
 .sec {
   color: #00324b;
   text-align: center;
-  margin-top: 19px; }
+  margin-top: 120px; }
 
 .banter {
   display: flex;
@@ -316,13 +317,41 @@
   .moving-section p {
     border: 1px solid black;
     border-radius: 400px;
-    display: inline; }
+    display: inline;
+    padding: .9rem 1.7rem;
+    background: #dff8eb;
+    color: #00324b;
+    font-weight: 650;
+    font-size: .95rem; }
   .moving-section .col1 {
     width: 30000px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    margin-top: 55px; }
   .moving-section .col2 {
     width: 30000px;
+    margin-top: 25px;
     margin-bottom: 16px; }
   .moving-section .col3 {
     width: 30000px;
-    margin-bottom: 16px; }
+    margin-top: 25px;
+    margin-bottom: 26px; }
+
+.advert-section {
+  background-color: #4ee8e2;
+  display: flex;
+  position: relative; }
+  .advert-section .col-1 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1; }
+    .advert-section .col-1 p {
+      color: #00324b;
+      font-size: 1rem;
+      font-weight: 600; }
+  .advert-section .col-2 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1; }
+  .advert-section .moving {
+    position: absolute;
+    z-index: 0; }

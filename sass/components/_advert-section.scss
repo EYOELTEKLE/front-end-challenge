@@ -1,0 +1,32 @@
+.advert-section
+{
+	background-color: $section-color;
+	display: flex;
+	position: relative;
+	.col-1
+	{
+		display: flex;
+		flex-direction: column;
+		z-index:1;
+		p
+		{
+			color:$nav-color;
+			font-size: 1rem;
+			font-weight:600;
+		}
+
+	}
+	.col-2
+	{
+		display: flex;
+		flex-direction: column;
+		z-index: 1;
+
+	}
+	.moving
+	{
+		position: absolute;
+		z-index:0;
+
+	}
+}

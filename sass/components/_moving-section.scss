@@ -10,20 +10,28 @@
 		border: 1px solid black;
 		border-radius: 400px;
 		display: inline;
+		padding: .9rem 1.7rem;
+		background: $special-color;
+		color:$nav-color;
+		font-weight: 650;
+		font-size:.95rem;
 	}
 	.col1
 	{
 		width: 30000px;
 		margin-bottom:16px;
+		margin-top:55px;
 	}
 	.col2
 	{
 		width: 30000px;
+		margin-top: 25px;
 		margin-bottom:16px;
 	}
 	.col3
 	{
 		width: 30000px;
-		margin-bottom:16px;
+		margin-top:25px;
+		margin-bottom:26px;
 	}
 }
