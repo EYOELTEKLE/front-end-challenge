@@ -1,24 +1,54 @@
+
 .section-advert
 {
 	background-color: $section-color;
 	display: flex;
 	justify-content: center;
 	position: relative;
+	gap:230px;
+
 	.col-1
 	{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		z-index:1;
-		p
-		{
-			color:$nav-color;
-			font-size: 1rem;
-			font-weight:600;
-		}
-		.flex
-		{
-		}
 
+	}
+	.flex
+	{
+		display: flex;
+		gap:30px;
+		align-items: center;
+
+	}
+	.header
+	{
+		font-size: 1.8rem;
+		font-weight: 700;
+		color:$nav-color;
+		max-width: 380px;
+		margin-bottom: 30px;
+	}
+	button
+	{
+		background: $header-color;
+		border-radius: 400px;
+		padding: .8rem 2.6rem;
+		font-size: 1rem;
+		color: $background-color;
+		border:1px solid $header-color;
+		font-weight: 600;
+		cursor: pointer;
+	}
+	.google-play
+	{
+		img
+		{
+			width: 150px;
+			height:41px;
+
+		}
 	}
 	.col-2
 	{
@@ -27,6 +57,8 @@
 		justify-content: flex-end;
 		z-index: 1;
 	}
+
+
 	.moving
 	{
 		
@@ -36,7 +68,7 @@
 		flex-direction: column;
 		gap:100px;
 		width:100%;
-		top:30%;
+		top:10%;
 	}
 	.move-3
 	{
